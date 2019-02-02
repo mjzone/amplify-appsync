@@ -1,0 +1,20 @@
+{
+    "projectName": "offline",
+    "projectPath": "/Users/manojf/Desktop/offline/offline",
+    "defaultEditor": "code",
+    "frontendHandler": {
+        "javascript": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "angular",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "dist/offline",
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "ng serve"
+        }
+    },
+    "providers": {
+        "awscloudformation": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation"
+    }
+}

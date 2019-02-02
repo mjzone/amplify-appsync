@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "offline",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognitof36b40f7",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "schemaGraphql": "s3://offline-20190202164430-deployment/amplify-appsync-files/schema.graphql.1549106242266",
+    "ResolverBucket": "offline-20190202164430-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1549106242266"
+}
