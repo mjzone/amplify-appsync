@@ -16,7 +16,7 @@ export class TodoComponent implements OnInit {
     this.allTodos = result.items;
 
     this.api.OnCreateTodoListener.subscribe({
-      next: (todo) => {
+      next: (todo:any) => {
         let newTodo = todo.value.data.onCreateTodo;
         this.allTodos.push(newTodo);
       }
